@@ -2,8 +2,8 @@ import { FaFacebookF, FaInstagram, FaYoutube } from "react-icons/fa6";
 
 const Footer = () => {
   return (
-    <footer className="footer">
-        <div className="flex flex-row">
+    <footer className="footer flex flex-row justify-between items-center p-4 bg-gray-200">
+        {/* <div className="flex flex-row"> */}
           <div className="flex">
             <FaFacebookF />
             <FaInstagram />
@@ -15,7 +15,7 @@ const Footer = () => {
             <a href="#">Política de privacidad</a>
             <a href="#">Contacto</a>
           </div>
-        </div>
+        {/* </div> */}
     </footer>
   )
 }

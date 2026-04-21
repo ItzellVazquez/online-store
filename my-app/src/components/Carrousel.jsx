@@ -7,7 +7,7 @@ const Carrousel = (props) => {
 
   console.log("las propiedades del carrousel son: ", category, data)
   return (
-    <div className="carrousel flex flex-row overflow-x-auto gap-4 py-4">
+    <div className="carrousel flex flex-row justify-center items-center">
       <div children="carrousel-title" className="flex flex-row text-xl font-bold mb-4">
         hola soy el Carrousel
       </div>

@@ -1,8 +1,8 @@
-const AddToCart = () => {
+const AddToCart = (props) => {
   return (
-    <div className="add-to-cart">
+    <button className="add-to-cart">
         hola soy el AddToCart
-    </div>
+    </button>
   )
 }
 

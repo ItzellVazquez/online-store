@@ -1,8 +1,7 @@
 import Header from './components/Header'
 import Banner from './components/Banner'
-import InfoCard from './components/InfoCard'
+import Carrousel from './components/Carrousel'
 import ProductCard from './components/productCard'
-import AddToCart from './components/AddToCart'
 import Footer from './components/Footer'
 import './App.css'
 
@@ -12,9 +11,9 @@ function App() {
     <>
       <Header />
       <Banner />
-      <InfoCard />
+      <Carrousel category="soap"/>
+      <Carrousel category="skin"/>
       <ProductCard />
-      <AddToCart />
       <Footer />
     </>
   )

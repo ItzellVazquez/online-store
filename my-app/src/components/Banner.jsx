@@ -1,4 +1,4 @@
-import bannermain from "../assets/bannermain.jpeg"
+import bannermain from "../assets/bannermain2.png"
 const Banner = () => {
   return (
     <div className="banner">
